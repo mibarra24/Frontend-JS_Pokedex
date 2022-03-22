@@ -1,8 +1,12 @@
 *{font-family: 'Heebo', sans-serif;
 }
 
+body {
+    background-image: url(./Assets/Wallpaper.jpg);
+}
+
 .banner{
-    background-color: #eb103c;
+    background-color: transparent;
     
     height: 100px;
     width: 100%;
@@ -20,14 +24,30 @@
     color: #fff;
 }
 
+.uperdex {
+    position: relative;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+
+
+.downdex {
+    position: relative;
+    padding: 10px;
+    display: block;
+    margin: auto;
+}
+
 form {
     width: 200px;
     margin: 20px auto;
+    ;
 }
 
 input {
     width: 100%;
-    padding: 10px;
+    padding: 8px;
 }
 
 .poke-card {
@@ -40,7 +60,7 @@ input {
     text-align: center;
     padding: 10px;
     margin: 0 auto;
-    background-color: #fff;
+    background-color: #00a1bc;
     border: 1px solid black;
 }
 

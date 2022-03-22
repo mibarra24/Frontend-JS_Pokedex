@@ -6,24 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pokédex</title>
     <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@200;300;400&family=Montserrat&display=swap" rel="stylesheet">
-    <script src="./Pokedex.js" type="javascript"></script>
-    <link rel="stylesheet" href="./Pokedex.css">
+    <link rel="stylesheet" href="Pokedex.css">
+    
 </head>
 <header>
-    <section class="banner"><h1>Pokédex Launch X</h1></section>
+    <section class="banner"><h1>Pokédex</h1></section>
 </header>
+<br>
 <body>
-    <form action="" onsubmit="searchPokemon(event)">
-        <input type="text" placeholder="Enter Pokémon name" id="pokeName" name="pokeName" autocomplete="off"><br></br>
-    </form>
-    <div data-poke-card Class="poke-card">
+    <div>
+        <img class="uperdex" src="./Assets/Uperdex.png">
+    </div>
+    <div data-poke-card class="poke-card">
+        <form action="" onsubmit="searchPokemon(event)">
+            <input type="text" name="pokemon" autocomplete="off">
+        </form>
         <div data-poke-name>Pokédex</div>
         <div data-poke-img-container class="img-container">
-            <img data-poke-img class="poke-img" src="./Assets/Pokeball.png" alt="Pokemon" id="pokeImg" width="150px">
+            <img data-poke-img class="poke-img" src="./Assets/Pokeball.png"/>
         </div>
         <div data-poke-id></div>
         <div data-poke-types class="poke-types"></div>
         <div data-poke-stats class="poke-stats"></div>
     </div>
+    <div>
+        <img class="downdex" src="./Assets/Downdex.png">
+    </div>
 </body>
+<footer>
+    <script src="./Pokedex.js"></script>
+</footer>
 </html>
