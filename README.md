@@ -1,6 +1,6 @@
 # Practica Frontend JS Pokedex Launch X
 
-#POKEDEX VERSION 1 :video_game:
+# POKEDEX VERSION 1 :video_game:
 
 Link a la pagina de pokedex https://mibarra24.github.io/Frontend-JS_Pokedex/
 
